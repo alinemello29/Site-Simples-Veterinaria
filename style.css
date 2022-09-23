@@ -1,0 +1,123 @@
+:root {
+    --fonte_principal:  'Poppins', sans-serif;
+    --fonte_secundaria: 'Work Sans', sans-serif;
+    --fonte_terciaria: 'Anton', sans-serif;
+
+    --preto_1: #000000;
+    --branco_2: #ffffff;
+    --branco_3: #ffffff;
+    --cinza1: #fff9f9;
+    --cinza_2: #faf8f4;
+    --offwhite: #ffffff;
+    --offwhite_2: #f5f3f3;
+}
+
+.corpo {
+    background-image: linear-gradient(to bottom right,#ffffff, #ffffff, var(--cinza_2), var(--cinza_1), var(--branco_2));
+}
+
+
+.logo__cabecalho {
+    width: 300px;
+}
+
+.cabecalho {
+    text-align: center;
+    background-color: var(--preto_1);
+}
+
+.info {
+    font-family: var(--fonte_);
+    font-size: 4em;
+    text-align: center;
+    margin: 0.7em 0;
+    color: rgb(0, 0, 0);
+}
+
+.card {
+    display: grid;
+    grid-template-rows: 55% 20% 25%;
+    justify-items: center;
+    text-align: center;
+    padding: 1em;
+    margin: 2em 4em;
+    background-image: linear-gradient(var(--offwhite), var(--offwhite_2), var(--branco_2)); 
+    border-radius: 5px;
+    height: 350px;
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.966)
+}
+
+.imagem__card {
+    width: 200px;     
+}
+
+.titulo {
+    font-size: 20px;
+    font-family: var(--fonte_principal);
+}
+
+.texto {
+    font-size: 18px;
+    font-weight: 700;
+    font-family: var(--fonte_secundaria);
+}
+
+.regiao {
+    text-align: center;
+    margin: 2em 0;
+}
+
+.texto__regiao {
+    margin: 1em;
+}
+
+.sobre {
+    margin: 3em 0;
+} 
+
+.titulo__sobre {
+    text-align: center;
+    font-family: var(--fonte_principal);
+    font-size: 1.5em;
+}
+
+.texto__sobre {
+    font-family: var(--fonte_secundaria);
+    font-weight: 900;
+    font-size: 1em;
+    margin: 1em 2em
+}
+
+.mapa {
+    width: 90%;
+    border-radius: 2em;
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.993)
+}
+
+.contatos{
+    text-align: center;
+    margin: 3em;
+    font-family: var(--fonte_principal);
+}
+
+.lista__contatos {
+    margin: 1em 0;
+}
+
+.lista__contatos img {
+    width: 30px;
+}
+
+.lista__contatos p {
+    margin-bottom: 1em;
+    font-weight: 600;
+}
+
+.rodape{
+    text-align: center;
+    background-image: linear-gradient(to bottom right,var(--branco_2), var(--branco_3));
+}
+
+.img__rodape {
+    width: 200px;
+}
